@@ -1,0 +1,4 @@
+{
+    "name": "ksailnet kafka demo",
+    "image": "ghcr.io/maazghani/dotfiles:latest" 
+}
