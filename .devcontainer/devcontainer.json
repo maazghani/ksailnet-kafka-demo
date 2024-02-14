@@ -1,6 +1,6 @@
 {
-	"name": "Kubernetes-in-Codespaces",
-  "dockerFile": "Dockerfile",
+	"name": "ksailnet-kafka-demo",
+	"image": "debian:latest",
 	// do not change these if you want Docker in Docker support
 	"runArgs": ["--init", "--privileged"],
 	"mounts": [ "source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind" ],
@@ -40,14 +40,14 @@
 		"timonwong.shellcheck",
 	],
 	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/rio/features/k9s:1": {},
+		"ghcr.io/rio/features/k3d:1": {},
 		"ghcr.io/tailscale/codespace/tailscale:1": {},
 		"ghcr.io/devcontainers/features/sshd:1": {}
 	  },
 
 	"waitFor": "postCreateCommand",
-
-	// Use 'onCreateCommand' to run commands as part of container creation.
-	"onCreateCommand": "/bin/bash -c .devcontainer/on-create.sh",
 
 	// Use 'postStartCommand' to run commands after the container starts.
 	"postStartCommand": "/bin/bash -c .devcontainer/post-start.sh"
