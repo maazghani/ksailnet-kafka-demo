@@ -44,8 +44,6 @@
 		"ghcr.io/devcontainers/features/sshd:1": {}
 	  },
 
-	"waitFor": "postCreateCommand",
-
 	// Use 'postStartCommand' to run commands after the container starts.
 	"postStartCommand": "/bin/bash -c .devcontainer/post-start.sh"
 }
