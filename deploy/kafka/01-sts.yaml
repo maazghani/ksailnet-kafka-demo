@@ -55,6 +55,14 @@ spec:
         app: kafka
     spec:
       serviceAccountName: kafka
+      # zone topologySpreadConstraints
+      topologySpreadConstraints:
+      - labelSelector:
+          matchLabels:
+            app: kafka
+        maxSkew: 1
+        topologyKey: topology.kubernetes.io/zone
+        whenUnsatisfiable: DoNotSchedule
       containers:
       - command:
         - sh
