@@ -35,8 +35,5 @@ RUN /tmp/zsh-in-docker.sh \
     -a 'bindkey "\$terminfo[kcuu1]" history-substring-search-up' \
     -a 'bindkey "\$terminfo[kcud1]" history-substring-search-down'
 
-COPY aliases /tmp
-RUN source /tmp/aliases
-
 ENTRYPOINT [ "/bin/zsh" ]
 CMD ["-l"]
