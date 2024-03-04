@@ -1,26 +1,10 @@
 {
 	"name": "ksailnet-kafka-demo",
-	"image": "debian:latest",
+	"image": "ghcr.io/maazghani/dev:main",
 
 	"hostRequirements": {
 		"cpus": 4
 	},
-
-	// forward ports for the app
-	"forwardPorts": [
-		30000,
-		30080,
-		31080,
-		32000
-	],
-
-	// add labels
-	"portsAttributes": {
-		"30000": { "label": "Prometheus" },
-		"31080": { "label": "Heartbeat" },
-		"32000": { "label": "Grafana" }
-	},
-
 	// Install extensions
 	"extensions": [
 		"ms-dotnettools.csharp",
@@ -30,12 +14,6 @@
 		"gruntfuggly.todo-tree",
 		"mutantdino.resourcemonitor",
 		"humao.rest-client",
-		"timonwong.shellcheck",
-	],
-	"features": {
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
-		"ghcr.io/rio/features/k9s:1": {},
-		"ghcr.io/rio/features/k3d:1": {}
-	  }
-
+		"timonwong.shellcheck"
+	]
 }
