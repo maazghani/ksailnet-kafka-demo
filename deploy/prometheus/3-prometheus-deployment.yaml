@@ -42,8 +42,7 @@ spec:
             name: prometheus-server-conf
   
         - name: prometheus-storage-volume
-          hostPath:
-            path: /prometheus
+          emptyDir: {}
 
 ---
 

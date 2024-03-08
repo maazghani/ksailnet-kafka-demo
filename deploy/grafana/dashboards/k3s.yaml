@@ -96,7 +96,7 @@ data:
             },
             {
                 "cacheTimeout": null,
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -177,7 +177,7 @@ data:
             },
             {
                 "cacheTimeout": null,
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -259,7 +259,7 @@ data:
             },
             {
                 "cacheTimeout": null,
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -342,7 +342,7 @@ data:
             },
             {
                 "cacheTimeout": null,
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -420,7 +420,7 @@ data:
             },
             {
                 "cacheTimeout": null,
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -499,7 +499,7 @@ data:
             },
             {
                 "cacheTimeout": null,
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -575,7 +575,7 @@ data:
             },
             {
                 "cacheTimeout": null,
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -653,7 +653,7 @@ data:
             },
             {
                 "cacheTimeout": null,
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -730,7 +730,7 @@ data:
             },
             {
                 "cacheTimeout": null,
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -820,7 +820,7 @@ data:
                 "type": "row"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -922,7 +922,7 @@ data:
                 "type": "timeseries"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -1015,7 +1015,7 @@ data:
                 "type": "timeseries"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -1122,7 +1122,7 @@ data:
                 "type": "row"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -1230,7 +1230,7 @@ data:
                 "type": "row"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -1360,7 +1360,7 @@ data:
                 "type": "row"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -1468,7 +1468,7 @@ data:
                 "type": "row"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -1575,7 +1575,7 @@ data:
                 "type": "row"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -1701,7 +1701,7 @@ data:
                 "type": "row"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -1807,7 +1807,7 @@ data:
                 "type": "row"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -1925,7 +1925,7 @@ data:
                 "type": "row"
             },
             {
-                "datasource": "${DS_PROMETHEUS}",
+                "datasource": "prometheus",
                 "fieldConfig": {
                     "defaults": {
                         "color": {
@@ -2085,7 +2085,7 @@ data:
                 {
                     "allValue": ".*",
                     "current": {},
-                    "datasource": "${DS_PROMETHEUS}",
+                    "datasource": "prometheus",
                     "definition": "label_values(node)",
                     "description": null,
                     "error": null,
@@ -2111,7 +2111,7 @@ data:
                 {
                     "allValue": ".*",
                     "current": {},
-                    "datasource": "${DS_PROMETHEUS}",
+                    "datasource": "prometheus",
                     "definition": "",
                     "description": null,
                     "error": null,
